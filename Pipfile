@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-asyncio = "*"
+nsync = {editable = true, path = "."}
+
+[packages]
+pysyncobj = "*"
+watchdog = "*"
+aiohttp = "*"
+
+[requires]
+python_version = "3.9"
